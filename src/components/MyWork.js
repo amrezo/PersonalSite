@@ -10,7 +10,7 @@ function MyWork() {
     <Container style={{ marginTop: 150 }}>
       <h1>A Sample of My Work</h1>
       <Row style={{ marginTop: 30, marginBottom: 150 }}>
-        <Col>
+        <Col lg={4}>
           <WorkCard
             title="Vitaeom"
             desc="Vitaeom is an Instagram automatic scheduling web app allowing you to auto-post and schedule posts ahead of time."
@@ -18,7 +18,7 @@ function MyWork() {
             imgSrc={VitaeomImage}
           />
         </Col>
-        <Col>
+        <Col lg={4}>
           <WorkCard
             title="Amrezo"
             desc="My personal site built using ReactJS and other common web technologies to showcase my work and resume."
@@ -26,7 +26,7 @@ function MyWork() {
             imgSrc={AmrezoImage}
           />
         </Col>
-        <Col>
+        <Col lg={4}>
           <WorkCard
             title="SimplCRM"
             desc="A simple and intuitive CRM and project management tool built specifically for freelancers."
