@@ -21,8 +21,8 @@ function Header() {
             Welcome to my personal corner on the internet.
           </h1>
           <p style={{ fontSize: 20 }}>
-            My collection of personal side-projects and showcased portfolio
-            pieces, as well as my resume.
+            My name is Amr Al-Refae. This is a collection of my personal
+            side-projects and portfolio pieces, as well as my resume.
           </p>
           <ButtonToolbar>
             <Button
